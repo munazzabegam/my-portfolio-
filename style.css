@@ -1,0 +1,124 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 10px;
+    top: 30%;
+    transition: margin-left 0.3s ease;
+
+}
+
+.navBar.closed {
+    margin-left: -110px !important;
+    transition: margin-left 0.3s ease;
+}
+
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: antiquewhite;
+    padding: 10px 15px;
+    border-radius: 10px;
+    z-index: 1;
+    width: 70px;
+    text-align: center;
+    border-right: 1px solid ;
+}
+
+.navLinks a {
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.menuBtn {
+    background: antiquewhite;
+    font-size: 18px;
+    border-radius: 0 50% 50% 0;
+    padding-left: 10px;
+    margin-left: -40px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    cursor: pointer;
+    transition: margin-left 0.3s ease;
+
+}
+
+.contents {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    width: 70vw;
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.profileImg {
+    background: antiquewhite;
+    display: inline-block;
+    margin-top: -130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.profileImg img {
+    width: 180px;
+    height: 180px;
+}
+
+.profile h1 {
+    margin: 20px;
+}
+.profile a{
+    border: 3px solid black ;
+    padding:6px  10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: brown;
+    margin-top: 15px;
+
+}
+.socialIcons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.socialIcons i{
+    font-size: 20px;
+}
+
+.profile:nth-child(1) {
+    margin-top: 30vh;
+
+}
