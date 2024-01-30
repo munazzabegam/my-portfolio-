@@ -66,7 +66,7 @@
     justify-content: center;
 }
 
-.profile {
+.container {
     width: 70vw;
     background: antiquewhite;
     display: flex;
@@ -80,7 +80,7 @@
 
 }
 
-.profileImg {
+.containerImg {
     background: antiquewhite;
     display: inline-block;
     margin-top: -130px;
@@ -92,15 +92,15 @@
     width: 200px;
 }
 
-.profileImg img {
+.containerImg img {
     width: 180px;
     height: 180px;
 }
 
-.profile h1 {
+.container h1 {
     margin: 20px;
 }
-.profile a{
+.container a{
     border: 3px solid black ;
     padding:6px  10px;
     border-radius: 10px;
@@ -118,7 +118,7 @@
     font-size: 20px;
 }
 
-.profile:nth-child(1) {
+.container:nth-child(1) {
     margin-top: 30vh;
 
 }
