@@ -46,13 +46,13 @@
     font-size: 18px;
     border-radius: 0 50% 50% 0;
     padding-left: 10px !important;
-    margin-left: -40px !important;
+    margin-left: -25px !important;
     height: 50px;
     width: 50px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 4px !important;
+    padding: 10px !important;
     cursor: pointer;
     transition: margin-left 0.3s ease;
 
