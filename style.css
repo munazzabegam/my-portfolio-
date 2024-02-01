@@ -77,7 +77,6 @@
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-
 }
 
 .containerImg {
@@ -101,14 +100,17 @@
     margin: 20px;
 }
 .container a{
-    border: 3px solid black ;
     padding:6px  10px;
     border-radius: 10px;
     text-decoration: none;
-    color: brown;
     margin-top: 15px;
 
 }
+.resume {
+    border: 3px solid black;
+    color: brown;
+}
+
 .socialIcons {
     display: flex;
     justify-content: space-between;
@@ -116,6 +118,7 @@
 }
 .socialIcons i{
     font-size: 20px;
+    color: brown;
 }
 
 .container:nth-child(1) {
@@ -134,5 +137,6 @@
 .project-more a {
   text-decoration: none;
   color: brown;
+  border: 3px solid black;
 }
 
