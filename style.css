@@ -122,7 +122,17 @@
     margin-top: 40vh;
 }
 
+/* project-section  */
+
+.project-more {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .project-more a {
   text-decoration: none;
   color: brown;
 }
+
