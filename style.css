@@ -1,7 +1,19 @@
+/* :root {
+    --primary-bg-color: #ffffff;
+    --text-color: #000000;
+    --link-hover-color: #0a081d;
+    --text-size: 16px;
+    --heading-size: 55px;
+  } */
+
 * {
     font-family: "Ubuntu", sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .navBar {
@@ -97,7 +109,7 @@
 }
 
 .container h1 {
-    margin: 20px;
+    margin: 10px;
 }
 .container a{
     padding:6px  10px;
@@ -106,7 +118,7 @@
     margin-top: 15px;
 
 }
-.resume {
+.resume, .contact a {
     border: 3px solid black;
     color: brown;
 }
@@ -115,6 +127,7 @@
     display: flex;
     justify-content: space-between;
     width: 100px;
+    align-items: center;
 }
 .socialIcons i{
     font-size: 20px;
@@ -139,4 +152,27 @@
   color: brown;
   border: 3px solid black;
 }
+
+/* skills section  */
+.container .skill-icons img{
+    height: 100%;
+    width: 4vw;
+    margin: 10px;
+}
+
+.view-resume {
+    margin: 30px 20px;
+}
+
+/* footer session  */
+
+footer {
+    text-align: center;
+}
+
+
+footer p {
+    color: brown;font-weight: 550;
+}
+
 

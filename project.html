@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-dZyEN9Q1e9DR6XqVrsxfQtREvIStWAwd8XC76neYzGOfqx2YMY0pW64p9vJ0n3Ym" crossorigin="anonymous">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+    <!-- side navbar  -->
+    <div class="navBar">
+        <div class="navLinks">
+            <a href="index.html">About</a>
+            <a href="project.html">Project</a>
+            <a href="">Resume</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div onclick="toggleNav()" class="menuBtn">
+            <i class="fa fa-chevron-left"></i>
+        </div>
+    </div>
+
+    <div class="contents">
+        <!-- about section  -->
+        <div class="container">
+            <div class="containerImg">
+                <img src="./assets/images/profile-pic.png" alt="couldn't load the picture">
+            </div>
+            <h1>My Projects</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorem reiciendis rem minima
+                officia recusandae sed in quod fugiat? Laboriosam.</p>
+                <div class="contact">
+                    <a href="">Start a Conversaton</a>
+                </div>
+        </div>
+
+        <!-- project section  -->
+        <div class="container">
+
+            <!-- project 1  -->
+            <div class="card mb-3" style="max-width: 900px;text-align: start;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img style="width: 650vw;height: 100%;" src="assets/images/code.jpeg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Engineers Hub 21</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quia dolor veritatis? Blanditiis animi aspernatur quo maxime, corrupti voluptas aperiam.</p>
+                      <h6 class="card-title">Tech Stack:</h6>
+                      <div class="tech">
+                        <img style="width: 2vw;height: 100%;" src="assets/icons/html.png" alt="" srcset="">
+                        <img style="width: 2vw;height: 100%;" src="assets/icons/css.jpeg" alt="" srcset="">
+                        <img style="width: 2vw;height: 100%;" src="assets/icons/js.png" alt="" srcset="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- project 2  -->
+              <div class="card mb-3" style="max-width: 900px;text-align: start;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img style="width: 650vw;height: 100%;" src="assets/images/code.jpeg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Engineers Hub 21</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quia dolor veritatis? Blanditiis animi aspernatur quo maxime, corrupti voluptas aperiam.</p>
+                      <h6 class="card-title">Tech Stack:</h6>
+                      <div class="tech">
+                        <img style="width: 2vw;height: 100%;" src="assets/icons/html.png" alt="" srcset="">
+                        <img style="width: 2vw;height: 100%;" src="assets/icons/css.jpeg" alt="" srcset="">
+                        <img style="width: 2vw;height: 100%;" src="assets/icons/js.png" alt="" srcset="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- project 3  -->
+              <div class="card mb-3" style="max-width: 900px;text-align: start;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img style="width: 650vw;height: 100%;" src="assets/images/code.jpeg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Engineers Hub 21</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quia dolor veritatis? Blanditiis animi aspernatur quo maxime, corrupti voluptas aperiam.</p>
+                      <h6 class="card-title">Tech Stack:</h6>
+                      <div class="tech">
+                        <img style="width: 2vw;height: 100%;" src="assets/icons/html.png" alt="" srcset="">
+                        <img style="width: 2vw;height: 100%;" src="assets/icons/css.jpeg" alt="" srcset="">
+                        <img style="width: 2vw;height: 100%;" src="assets/icons/js.png" alt="" srcset="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="container">
+            <h1>Need Help With Your Project</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vitae esse hic alias unde quos aliquid quis expedita ut eligendi.</p>
+            <div class="contact">
+                <a href="">Get in Touch</a>
+            </div>
+        </div>
+
+    </div>
+
+        <!-- footer section -->
+        <footer style="background-color: rgb(255, 255, 255);" class="text-white text-center py-4">
+            <div class="foot">    
+                <p><span style="color:antiquewhite">Mun</span>azza &#169; 2023</p>
+            </div>
+        </footer>
+
+
+    <script src="./main.js"></script>
+    <!-- bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+

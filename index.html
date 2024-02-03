@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
 
     <!-- font awesome link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-dZyEN9Q1e9DR6XqVrsxfQtREvIStWAwd8XC76neYzGOfqx2YMY0pW64p9vJ0n3Ym" crossorigin="anonymous">
     <!-- google fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +19,15 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
+
 <body>
+    <!-- side navbar  -->
     <div class="navBar">
         <div class="navLinks">
-            <a href="">Home</a>
-            <a href="">Project</a>
-            <a href="">Contact</a>
-            <a href="">home</a>
+            <a href="index.html">About</a>
+            <a href="project.html">Project</a>
+            <a href="">Resume</a>
+            <a href="contact.html">Contact</a>
         </div>
         <div onclick="toggleNav()" class="menuBtn">
             <i class="fa fa-chevron-left"></i>
@@ -32,13 +35,14 @@
     </div>
 
     <div class="contents">
+        <!-- about section  -->
         <div class="container">
             <div class="containerImg">
                 <img src="./assets/images/profile-pic.png" alt="couldn't load the picture">
             </div>
             <div class="socialIcons">
                 <a href=""><i class="fa fa-instagram"></i></a>
-                <a href=""><i class="fa fa-github"></i></a>
+                <a href="http://github.com/munazzabegam"><i class="fa fa-github"></i></a>
                 <a href="http://wa.me/+918197458962"><i class="fa fa-whatsapp"></i></a>
             </div>
             <h1>I'm Munazza Begam</h1>
@@ -47,6 +51,7 @@
             <a class="resume" href="">View Resume</a>
         </div>
 
+        <!-- project section  -->
         <div class="container">
             <div class="project title">
                 <h1>Featured Projects</h1>
@@ -89,20 +94,41 @@
                 <a href="">More Projects</a>
             </div>
         </div>
+
+        <!-- skills section  -->
         <div class="container">
             <div class="skills">
                 <div class="skills-title">
                     <h1>Skills and Experience</h1>
                 </div>
-                <div class="skills-details">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati earum dolore distinctio! Numquam doloremque exercitationem temporibus nobis inventore minus doloribus.</p>
-                </div>
                 <div class="skills-content">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eveniet excepturi? Beatae, perferendis ullam obcaecati corrupti perspiciatis vero omnis quis.</p>
+                </div>
+                <div class="skill-icons">
+                    <img src="assets/icons/html.png" alt="" srcset="">
+                    <img src="assets/icons/css.jpeg" alt="" srcset="">
+                    <img src="assets/icons/js.png" alt="" srcset="">
+                    <img src="assets/icons/c++.png" alt="" srcset="">
+                    <img src="assets/icons/c.png" alt="" srcset="">
+                    <img src="assets/icons/java.png" alt="" srcset="">
+                    <img src="assets/icons/python.png" alt="" srcset="">
+                    <img src="assets/icons/php.png" alt="" srcset="">
+                    <img src="assets/icons/sql.png" alt="" srcset="">
+                    <img src="assets/icons/bootstrap.png" alt="" srcset="">
+                </div>
+                <div class="view-resume">
+                    <a class="resume" href="">View Resume</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- footer section -->
+    <footer style="background-color: rgb(255, 255, 255);" class="text-white text-center py-4">
+        <div class="foot">    
+            <p><span style="color: antiquewhite">Mun</span>azza &#169; 2023</p>
+        </div>
+    </footer>
 
 
     <script src="./main.js"></script>

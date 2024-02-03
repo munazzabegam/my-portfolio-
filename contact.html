@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-dZyEN9Q1e9DR6XqVrsxfQtREvIStWAwd8XC76neYzGOfqx2YMY0pW64p9vJ0n3Ym" crossorigin="anonymous">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        .contact {
+            border: 2px solid black;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 30px 55px;
+            margin: 40px;
+        }
+
+        .contact-title {
+            margin-bottom: 50px;
+        }
+        form {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .mb-3 {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            display: flex;
+            justify-content: start;
+        } address
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #message {
+            height: 150px;
+            resize: vertical;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            /* background-color: #000000; */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- side navbar  -->
+    <div class="navBar">
+        <div class="navLinks">
+            <a href="index.html">About</a>
+            <a href="project.html">Project</a>
+            <a href="">Resume</a>
+            <a href="">Contact</a>
+        </div>
+        <div onclick="toggleNav()" class="menuBtn">
+            <i class="fa fa-chevron-left"></i>
+        </div>
+    </div>
+
+    <div class="contents">
+        <!-- about section  -->
+        <div class="container">
+            <div class="containerImg">
+                <img src="./assets/images/profile-pic.png" alt="couldn't load the picture">
+            </div>
+            <h1>Contact Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorem reiciendis rem minima
+                officia recusandae sed in quod fugiat? Laboriosam.
+            </p>
+            <div class="contact">
+                <div class="contact-title">
+                    <h1>Contact Form</h1>
+                </div>
+                <form style="width: 400px;">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Name"  aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <input style="height: 20vh;" type="text" class="form-control" id="message" placeholder="Message">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer section -->
+    <footer style="background-color: rgb(255, 255, 255);" class="text-white text-center py-4">
+        <div class="foot">    
+            <p><span style="color: antiquewhite">Mun</span>azza &#169; 2023</p>
+        </div>
+    </footer>
+
+
+    <script src="./main.js"></script>
+    <!-- bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
