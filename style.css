@@ -1,10 +1,11 @@
-/* :root {
-    --primary-bg-color: #ffffff;
+:root {
+    --primary-color: #faebd7;
+    --secondary-color: #610101;
     --text-color: #000000;
-    --link-hover-color: #0a081d;
+    /* --link-hover-color: #0a081d;
     --text-size: 16px;
-    --heading-size: 55px;
-  } */
+    --heading-size: 55px; */
+  }
 
 * {
     font-family: "Ubuntu", sans-serif;
@@ -37,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: antiquewhite;
+    background: var(--primary-color);
     padding: 10px 15px;
     border-radius: 10px;
     z-index: 1;
@@ -50,11 +51,11 @@ body {
     padding: 20px 10px;
     text-decoration: none;
     font-size: 18px;
-    color: black;
+    color: var(--text-color);
 }
 
 .menuBtn {
-    background: antiquewhite;
+    background: var(--primary-color);
     font-size: 18px;
     border-radius: 0 50% 50% 0;
     padding-left: 10px !important;
@@ -80,7 +81,7 @@ body {
 
 .container {
     width: 70vw;
-    background: antiquewhite;
+    background: var(--primary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,7 +93,7 @@ body {
 }
 
 .containerImg {
-    background: antiquewhite;
+    background: var(--primary-color);
     display: inline-block;
     margin-top: -130px;
     border-radius: 50%;
@@ -120,7 +121,7 @@ body {
 }
 .resume, .contact a {
     border: 3px solid black;
-    color: brown;
+    color: var(--secondary-color);
 }
 
 .socialIcons {
@@ -131,7 +132,7 @@ body {
 }
 .socialIcons i{
     font-size: 20px;
-    color: brown;
+    color: var(--secondary-color);
 }
 
 .container:nth-child(1) {
@@ -149,7 +150,7 @@ body {
 
 .project-more a {
   text-decoration: none;
-  color: brown;
+  color: var(--secondary-color);
   border: 3px solid black;
 }
 
@@ -172,7 +173,8 @@ footer {
 
 
 footer p {
-    color: brown;font-weight: 550;
+    color: var(--secondary-color);
+    font-weight: 550;
 }
 
 
