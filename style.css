@@ -79,6 +79,8 @@ body {
     justify-content: center;
 }
 
+/* about section  */
+
 .container {
     width: 70vw;
     background: var(--primary-color);
@@ -109,9 +111,10 @@ body {
     height: 180px;
 }
 
-.container h1 {
-    margin: 10px;
+.container h1{
+    margin: 20px;
 }
+
 .container a{
     padding:6px  10px;
     border-radius: 10px;
