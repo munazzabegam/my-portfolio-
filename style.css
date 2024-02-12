@@ -144,6 +144,10 @@ body {
 
 /* project-section  */
 
+.project-details p {
+    padding: 10px 0;
+}
+
 .project-more {
     display: flex;
     justify-content: center;
