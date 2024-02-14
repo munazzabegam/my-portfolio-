@@ -25,6 +25,7 @@ body {
     left: 10px;
     top: 30%;
     transition: margin-left 0.3s ease;
+    z-index: 1;
 
 }
 
@@ -68,6 +69,7 @@ body {
     padding: 10px !important;
     cursor: pointer;
     transition: margin-left 0.3s ease;
+    border: 0.1px solid brown;
 
 }
 
@@ -113,6 +115,9 @@ body {
 
 .container h1{
     margin: 20px;
+}
+.container p{
+ text-align: justify;
 }
 
 .container a{
@@ -185,3 +190,10 @@ footer p {
 }
 
 
+@media (max-width: 780px) {
+  .container{
+    width:95vw;
+    
+  }
+  
+}
