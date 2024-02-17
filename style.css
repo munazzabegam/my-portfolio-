@@ -1,8 +1,9 @@
 :root {
-    --bg-color: #3c3636;
-    --primary-color: #000000;
-    --secondary-color: #ffffff;
-    --text-color: #ffffff;
+    --bg-color: #e5e0e0cb;
+    --primary-color: #ffffff;
+    --secondary-color: #ffc400;
+    --heading-color:#1c0123;
+    --text-color: #2f2c2c;
     /* --link-hover-color: #0a081d;
     --text-size: 16px;
     --heading-size: 55px; */
@@ -81,6 +82,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.contents h1{
+    color: var(--heading-color);
 }
 
 /* about section  */
@@ -189,6 +194,10 @@ footer {
 footer p {
     color: var(--secondary-color);
     font-weight: 550;
+}
+
+.foot p span{
+    color: var(--secondary-color);
 }
 
 
