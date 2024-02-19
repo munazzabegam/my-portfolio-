@@ -52,7 +52,6 @@ body {
     top: 30%;
     transition: margin-left 0.3s ease;
     z-index: 1;
-
 }
 
 .navBar.closed {
@@ -71,7 +70,7 @@ body {
     z-index: 1;
     width: 100px !important;
     text-align: center;
-    /* border-right: 1px solid ; */
+    border-right: 2px solid black;
 }
 
 .navLinks a {
@@ -99,7 +98,7 @@ body {
     padding: 10px !important;
     cursor: pointer;
     transition: margin-left 0.3s ease;
-
+    border: 2px solid black;
 }
 
 .contents {
@@ -243,6 +242,20 @@ footer p {
   }
 
   .navBar{
+    width: 100%;
+    left: 0;
+  }
+
+  .navLinks {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    padding: 0 210px;
+    border-right: none;
+  }
+
+  .menuBtn {
     display: none;
   }
   
