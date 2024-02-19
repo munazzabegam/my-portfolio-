@@ -241,5 +241,9 @@ footer p {
     width:95vw;
     
   }
+
+  .navBar{
+    display: none;
+  }
   
 }
