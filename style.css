@@ -258,5 +258,9 @@ footer p {
   .menuBtn {
     display: none;
   }
+
+  .nothing {
+    height: 2vh;
+  }
   
 }
