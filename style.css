@@ -253,6 +253,8 @@ footer p {
     bottom: 0;
     padding: 0 210px;
     border-right: none;
+    border-top: black solid 1px;
+    border-radius: 0px;
   }
 
   .menuBtn {
@@ -260,7 +262,7 @@ footer p {
   }
 
   .nothing {
-    height: 4vh;
+    height: 6vh;
   }
   
 }
