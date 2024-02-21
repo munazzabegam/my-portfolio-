@@ -253,7 +253,6 @@ footer p {
     bottom: 0;
     padding: 0 210px;
     border-right: none;
-    border-top: black solid 1px;
     border-radius: 0px;
   }
 
@@ -262,7 +261,7 @@ footer p {
   }
 
   .nothing {
-    height: 6vh;
+    height: 8vh;
   }
   
 }
