@@ -241,17 +241,18 @@ footer p {
 
   .navBar{
     width: 100%;
-    left: 0;
   }
 
   .navLinks {
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    bottom: 0;
-    padding: 0 210px;
     border-right: none;
     border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 0 220px;
   }
 
   .menuBtn {
