@@ -216,6 +216,9 @@ body {
     margin: 30px 20px;
 }
 
+
+
+
 /* footer session  */
 
 footer {
@@ -261,6 +264,11 @@ footer p {
 
   .nothing {
     height: 8vh;
+  }
+
+  .skills .skill-icons img{
+    height: 6vh;
+    width: 9vw;
   }
   
 }
