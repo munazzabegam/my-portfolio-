@@ -267,8 +267,9 @@ footer p {
   }
 
   .skills .skill-icons img{
-    height: 6vh;
+    height: 100%;
     width: 9vw;
   }
   
 }
+
