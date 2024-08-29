@@ -16,7 +16,8 @@
 
 body {
     overflow-x: hidden;
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
+    background-color: #b7b6b6cb;
     color:  var(--text-color);
 }
 
