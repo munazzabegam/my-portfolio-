@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #00000080;
+    --bg-color: #000000de;
     --primary-color: #000000;
     --secondary-color: #ffc400;
     --tertiary-color: #ffffff;
@@ -17,8 +17,8 @@
 
 body {
     overflow-x: hidden;
-    background: var(--bg-color);
-    /* background-color: #b7b6b6cb; */
+    /* background: var(--bg-color); */
+    background: linear-gradient(#555555,#555555,#fff7a5,#555555);
     color:  var(--text-color);
 }
 
@@ -186,13 +186,9 @@ body {
 }
 
 .project-card h5 a{
-    color: var(--heading-color);
+    color: var(--primary-color);
 }
 
-.project-card h5 a:hover{
-    border-bottom: solid 2px black;
-    border-radius: 0px;
-}
 
 .project-more {
     display: flex;
