@@ -1,9 +1,10 @@
 :root {
-    --bg-color: #e5e0e0cb;
-    --primary-color: #ffffff;
+    --bg-color: #00000080;
+    --primary-color: #000000;
     --secondary-color: #ffc400;
-    --heading-color:#230101;
-    --text-color: #464444;
+    --tertiary-color: #ffffff;
+    --heading-color:#ffffff;
+    --text-color: #ffffff;
   }
 
 
@@ -16,8 +17,8 @@
 
 body {
     overflow-x: hidden;
-    /* background: var(--bg-color); */
-    background-color: #b7b6b6cb;
+    background: var(--bg-color);
+    /* background-color: #b7b6b6cb; */
     color:  var(--text-color);
 }
 
@@ -68,7 +69,7 @@ body {
     z-index: 1;
     width: 100px !important;
     text-align: center;
-    border-right: 2px solid black;
+    border-right: 2px solid var(--tertiary-color);
 }
 
 .navLinks a {
@@ -96,7 +97,7 @@ body {
     padding: 10px !important;
     cursor: pointer;
     transition: margin-left 0.3s ease;
-    border: 2px solid black;
+    border: 2px solid var(--tertiary-color);
 }
 
 .contents {
@@ -159,7 +160,7 @@ body {
 
 }
 .resume, .contact a {
-    border: 3px solid black;
+    border: 3px solid var(--tertiary-color);
     color: var(--secondary-color);
 }
 
@@ -203,7 +204,7 @@ body {
 .project-more a {
   text-decoration: none;
   color: var(--secondary-color);
-  border: 3px solid black;
+  border: 3px solid var(--tertiary-color);
 }
 
 /* skills section  */
@@ -216,9 +217,6 @@ body {
 .view-resume {
     margin: 30px 20px;
 }
-
-
-
 
 /* footer session  */
 
